@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+body {
+  line-height: 1.6rem;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  background: #a8d8ea;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.container #game {
+  background: #aa96da;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.container #game .footer {
+  text-align: center;
+  margin-bottom: 1.3rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04rem;
+}
+
+.container #game h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 1.5rem 0;
+  font-weight: 900;
+}
+
+.container #game #choose-number {
+  display: block;
+}
+
+.container #game #choose-number p {
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin-top: 2rem;
+}
+
+.container #game #choose-number p #min,
+.container #game #choose-number p #max {
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  width: 14%;
+}
+
+.container #game #choose-number p #min:focus,
+.container #game #choose-number p #max:focus {
+  outline: none;
+}
+
+.container #game #choose-number p #set-input {
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  background: #ea9a97;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.container #game #choose-number p #set-input:focus, .container #game #choose-number p #set-input:hover {
+  outline: none;
+  background: #333;
+  color: #aa96da;
+}
+
+.container #game .form-group {
+  display: block;
+  margin-top: 1.5rem;
+}
+
+.container #game .form-group input {
+  border: none;
+  padding: 0.6rem 10rem;
+  display: block;
+  width: 70%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.container #game .form-group input:focus {
+  outline: none;
+}
+
+.container #game .submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.5rem;
+}
+
+.container #game .submit h2 {
+  margin-right: 1.5rem;
+  position: relative;
+}
+
+.container #game .submit h2::before {
+  content: "";
+  position: absolute;
+  padding: 1rem;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  top: -0.38rem;
+  left: -0.8rem;
+}
+
+.container #game .submit input {
+  display: inline-block;
+  background: #e8c522;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 30px;
+  border: 6px solid #fdfbf0;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.container #game .submit input:focus {
+  outline: none;
+}
+
+.container #game .submit input:hover {
+  background: #fdfbf0;
+  border: 6px solid #e8c522;
+  color: #333;
+}
+
+.container #game #loading {
+  display: none;
+  margin-top: 2rem;
+}
+
+.container #game #loading img {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
+.container #game .message {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */

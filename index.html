@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luck Checker | A Online Luck Checker Game</title>
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div id="game">
+      <p class="footer">
+        This App is Made By
+        <a href="https://twiiter.com/polashahmad01" target="_blank">Polash Ahmad</a>
+      </p>
+      <h1>Luck Checker</h1>
+
+      <div id="choose-number">
+        <p>
+          Set a number between
+          <input type="number" id="min" value="1" /> to
+          <input type="number" id="max" value="10" />
+          <input type="submit" value="Set Number" id="set-input" />
+        </p>
+      </div>
+      <div class="form-group">
+        <input type="number" id="input-value" />
+      </div>
+      <div class="submit">
+        <h2>5</h2>
+        <input type="submit" value="Check Now" id="submit" />
+      </div>
+      <div id="loading">
+        <img src="img/loading.gif" alt="loading-spinner">
+      </div>
+      <p class="message"></p>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
